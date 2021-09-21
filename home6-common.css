@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?dnn9p5');
+    src: url('../fonts/icomoon.eot?dnn9p5#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?dnn9p5') format('truetype'), url('../fonts/icomoon.woff?dnn9p5') format('woff'), url('../fonts/icomoon.svg?dnn9p5#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.article {
+    width: 1177px;
+    margin: 15px auto 92px;
+}
+
+.article h1 {
+    position: relative;
+    color: #000;
+    font-size: 26px;
+    line-height: 54px;
+    text-align: center;
+}
+
+.article h1::after {
+    position: absolute;
+    left: 0;
+    content: '\e90e';
+    font-family: 'icomoon';
+    font-size: 20px;
+    color: rgb(56, 56, 56);
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.article h1 span {
+    position: absolute;
+    left: 16px;
+    font-size: 16px;
+    color: rgb(56, 56, 56);
+    cursor: pointer;
+}
+
+.article h1 span a {
+    color: rgb(82, 82, 82);
+    transition: all 0.5s;
+}
+
+.article h1 span a:hover {
+    color: rgb(56, 56, 56);
+}
+
+.article .source {
+    height: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px rgb(56, 56, 56) solid;
+}
+
+.article .source .source-txt {
+    margin: 0 auto;
+    height: 100%;
+    width: 500px;
+    line-height: 30px;
+    color: rgb(56, 56, 56);
+}
+
+.article .source .source-txt span:nth-child(2) {
+    float: right;
+}
+
+.article .library {
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.article .library p {
+    font-size: 16px;
+    text-indent: 2em;
+    text-align: start;
+    color: #000;
+}
+
+.article .library img {
+    width: 566px;
+    height: 446px;
+    margin: 10px 0;
+}
