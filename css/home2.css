@@ -1,0 +1,72 @@
+.home .main .xiaoyi-txt,
+.home .main .piyingtxt,
+.home .main .history {
+    width: 100%;
+    margin: 15px 0 92px 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+}
+
+.home .main .xiaoyi-txt .biaoti3,
+.home .main .piyingtxt .biaoti2,
+.home .main .history .biaoti1 {
+    color: #fff;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.home .main .history li {
+    position: relative;
+    margin: 0 15px 15px 15px;
+    padding: 15px 0 15px 0;
+}
+
+.home .main .history h3 {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 20px;
+    background-color: black;
+    color: #fff;
+    border-radius: 15px 0 0 15px;
+    font-weight: 400;
+}
+
+.home .main .piyingtxt,
+.home .main .xiaoyi-txt,
+.home .main .history .history-txt {
+    margin-top: -30px;
+    margin-left: 100px;
+    padding: 30px;
+    font-size: 16px;
+    color: #fff;
+    text-indent: 2em;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 0 15px 15px 15px;
+    line-height: 36px;
+}
+
+.home .main .piyingtxt {
+    margin: 15px 0 92px 0;
+    border-radius: 15px;
+    padding: 0 30px 30px;
+}
+
+.home .main .piyingtxt .biaoti2 {
+    padding: 15px 0 15px 0;
+    text-indent: 0em;
+}
+
+.home .main .xiaoyi-txt {
+    margin: 15px 0 15px 0;
+    border-radius: 15px;
+    padding: 0 30px 30px;
+}
+
+.home .main .xiaoyi-txt .biaoti3 {
+    padding: 15px 0 15px 0;
+    text-indent: 0em;
+}

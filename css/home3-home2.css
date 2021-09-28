@@ -1,0 +1,101 @@
+.home .main .paper {
+    width: 100%;
+    margin-bottom: 92px;
+}
+
+.home .main .paper .tone,
+.home .main .paper .art,
+.home .main .paper .modern,
+.home .main .paper .prove {
+    padding: 15px 30px 30px 30px;
+    background-color: rgba(0, 0, 0, .4);
+    border-radius: 15px;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.home .main .paper .tone p,
+.home .main .paper .art p,
+.home .main .paper .modern p,
+.home .main .paper .prove p {
+    font-size: 16px;
+    color: #fff;
+    text-indent: 2em;
+    line-height: 36px;
+}
+
+.home .main .paper .modern .modern-img,
+.home .main .paper .art .art-img,
+.home .main .paper .prove .prove-img {
+    width: 100%;
+    margin: 15px auto;
+    text-align: center;
+}
+
+.home .main .paper .modern .modern-img img {
+    width: 700px;
+    margin: 15px 15px 15px 0;
+}
+
+.home .main .paper .modern .modern-img h2 {
+    color: #fff;
+}
+
+.home .main .paper .art .art-img {
+    margin: 0 auto;
+}
+
+.home .main .paper .prove .prove-img div {
+    float: left;
+}
+
+.home .main .paper .art .art-img div {
+    float: right;
+}
+
+.home .main .paper .art .art-img img,
+.home .main .paper .prove .prove-img img {
+    height: 320px;
+}
+
+.home .main .paper .art .art-img .art-img2,
+.home .main .paper .prove .prove-img .kaozheng2 {
+    margin: 0 15px 0;
+}
+
+.home .main .paper .art .art-img h2,
+.home .main .paper .prove .prove-img h2 {
+    color: #fff;
+    text-align: center;
+    line-height: 37px;
+}
+
+.home .main .tone h2 {
+    line-height: 36px;
+    color: #fff;
+    text-indent: 2em;
+}
+
+.home .main .tone h2 img {
+    margin-right: 10px;
+}
+
+.home .main .tone .tone-img {
+    width: 1120px;
+    margin: 15px 0;
+    height: 320px;
+}
+
+.home .main .tone .tone-img div {
+    width: 550px;
+    float: left;
+    text-align: center;
+}
+
+.home .main .tone .tone-img .tone-img2 {
+    margin-left: 20px;
+}
+
+.home .main .tone .tone-img div img {
+    width: 550px;
+}
